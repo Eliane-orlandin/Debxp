@@ -1,4 +1,4 @@
-// Determinar o tamanho e a faixa dos tipos.
+/*Determinar o tamanho e a faixa dos tipos.*/
 #include <stdio.h>
 #include <limits.h> // Constantes dos limites
 #include <float.h>  //Limites dos tipos float e double
