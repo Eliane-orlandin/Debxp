@@ -8,5 +8,5 @@ int main()
 
     printf("pc = %p; pc + 1 = %p\n", pc, pc + 1);
     printf("pi = %p; pi + 1 = %p\n", pi, pi + 1);
-    printf("pd = %p; pd + 1 = %p\n", pd, pc + 1);
+    printf("pd = %p; pd + 1 = %p\n", pd, pd + 1);
 }
