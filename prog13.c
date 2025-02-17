@@ -5,9 +5,9 @@ int main()
     int soma = 97, total = 11;
     double media;
 
-    media = soma / total;
+    media = (double)soma / total;
 
-    printf("Média: %.2f\n", media);
+    printf("Média: %f\n", media);
 
     return 0;
 }
