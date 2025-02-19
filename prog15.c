@@ -2,11 +2,13 @@
 
 #include <stdio.h>
 
+#define MAX 4 // CONSTANTE SIMBÓLICA - melhor prática
+
 int main()
 {
-    float valor[] = {10.5, 9.8, 15.7, 13.25};
+    float valor[MAX] = {10.5, 9.8, 15.7, 13.25};
 
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < MAX; i++)
     {
         printf("Valor %d: R$ %5.2f - Índice %d\n", i + 1, valor[i], i);
     }
