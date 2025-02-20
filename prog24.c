@@ -10,7 +10,7 @@ int main()
     {
         printf(
             "pa + %d = %p ⭢ *(pa + %d) = %d\n",
-            i, pa + 1, i, *(pa + 1));
+            i, pa + i, i, *(pa + i));
     }
     return 0;
 }
