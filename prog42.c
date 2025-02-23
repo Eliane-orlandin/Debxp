@@ -13,7 +13,17 @@ int main()
     return 0;
 }
 /*
-Explicação:
+A sintaxe básica para declarar um ponteiro de ponteiros em C é:
+
+tipo **nome;
+
+Onde:
+
+O primeiro * indica que é um ponteiro.
+O segundo * indica que é um ponteiro para outro ponteiro.
+
+Explicação do exercício:
+
 x → Variável contendo 10
 p → Aponta para x, então *p retorna 10
 pp → Aponta para p, então **pp retorna 10
